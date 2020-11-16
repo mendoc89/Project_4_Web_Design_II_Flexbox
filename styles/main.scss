@@ -1,4 +1,5 @@
-@import 'partials/base';
+@import "./partials/base";
+@import "./partials/colors";
 
 // Medium Display
   @media (min-width: 768px) {
@@ -45,12 +46,11 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
   }
   .hero-content {
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
   }
   .sidebar {
-    background: #ffffff;
+    background: $C1;
   }
